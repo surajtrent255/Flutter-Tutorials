@@ -1,4 +1,6 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';//yo material library le garda navbar blue, text center , text black default hunxa
+// Pages ko satoo katile screens pani lekhxan
+//refactoring feature le garda error aaudaina (file move garda)
 
 class HomePage extends StatelessWidget {
   final int days = 30;
@@ -11,7 +13,7 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: Text("Welcome to $days days of flutter by $name"),
+          child: Text("Welcomes to $days days of flutter by $name"),
         ),
       ),
       drawer: Drawer(),
